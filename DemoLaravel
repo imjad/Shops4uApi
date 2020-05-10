@@ -1,0 +1,17 @@
+-- Laravel serve ----
+
+php artisan serve
+
+-- Model With migration ==>
+
+php artisan make:model Flight -m
+
+-- Migrate all 
+
+php artisan migrate
+
+php artisan migrate:reset
+
+php artisan migrate --force
+
+php artisan migrate:fresh
